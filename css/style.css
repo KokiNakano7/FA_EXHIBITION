@@ -424,8 +424,11 @@ body {
 }
 
 /* footer */
+
 .footer__copy, .footer__heading, .footer__logo, .section, .section__title, .section__heading-english, .section__heading-japanese, .section__form, .section__input-txt {
   width: -webkit-fit-content;
+
+.footer__copy, .footer__heading, .footer__logo {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
@@ -482,5 +485,4 @@ body {
   font-family: "Abril Fatface", cursive;
 }
 
-/* PC */
-/*# sourceMappingURL=style.css.map */
+/* PC *//*# sourceMappingURL=style.css.map */
