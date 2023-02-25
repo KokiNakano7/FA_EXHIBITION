@@ -275,7 +275,6 @@ body {
 
 /* footer */
 .footer__copy, .footer__heading, .footer__logo {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
@@ -332,5 +331,4 @@ body {
   font-family: "Abril Fatface", cursive;
 }
 
-/* PC */
-/*# sourceMappingURL=style.css.map */
+/* PC *//*# sourceMappingURL=style.css.map */
