@@ -412,6 +412,7 @@ th {
 body {
   background-color: #000;
   color: #fff;
+  font-family: "Cormorant Garamond", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 
 .header {
@@ -700,7 +701,7 @@ body {
 }
 
 .section__heading-english {
-  color: var(--c-secondary-rbga);
+  color: rgba(225, 225, 225, 0.3);
 }
 .section__heading-english--small {
   font-size: 50px;
@@ -720,11 +721,11 @@ body {
 }
 
 ::-moz-placeholder {
-  color: var(--c-secondary-rbga);
+  color: rgba(225, 225, 225, 0.3);
 }
 
 ::placeholder {
-  color: var(--c-secondary-rbga);
+  color: rgba(225, 225, 225, 0.3);
 }
 
 .section__form {
@@ -748,12 +749,12 @@ body {
 .section__input {
   width: 300px;
   height: 60px;
-  border-bottom: 1px solid var(--c-secondary);
+  border-bottom: 1px solid #fff;
 }
 
 .section__input:focus {
   border: none;
-  background-color: var(--c-secondary-rbga);
+  background-color: rgba(225, 225, 225, 0.3);
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -763,9 +764,9 @@ body {
   width: 640px;
   height: 460px;
   margin-top: 40px;
-  border: 1px solid var(--c-secondary);
+  border: 1px solid #fff;
   border-radius: 10px;
-  background: var(--bg-textarea);
+  background: rgba(217, 217, 217, 0.27);
 }
 
 .section__input-submit {
@@ -794,8 +795,8 @@ body {
   left: 0;
   width: 90px;
   height: 60px;
-  border-top: 1px solid var(--c-secondary);
-  border-left: 1px solid var(--c-secondary);
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
   content: "";
   transition: all ease 0.2s;
 }
@@ -807,8 +808,8 @@ body {
   width: 90px;
   height: 60px;
   border-top: none;
-  border-right: 1px solid var(--c-secondary);
-  border-bottom: 1px solid var(--c-secondary);
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   border-left: none;
   content: "";
 }
